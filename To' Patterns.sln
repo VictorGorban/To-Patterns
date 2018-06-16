@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "To' Patterns", "To' Patterns\To' Patterns.csproj", "{178C7B70-6FA8-4BB0-8DF0-5EEE1CF3893C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "To' PatternsTests", "To' PatternsTests\To' PatternsTests.csproj", "{0AF73964-AC9E-4946-820D-8EBFA526FEF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{178C7B70-6FA8-4BB0-8DF0-5EEE1CF3893C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{178C7B70-6FA8-4BB0-8DF0-5EEE1CF3893C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{178C7B70-6FA8-4BB0-8DF0-5EEE1CF3893C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{178C7B70-6FA8-4BB0-8DF0-5EEE1CF3893C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AF73964-AC9E-4946-820D-8EBFA526FEF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AF73964-AC9E-4946-820D-8EBFA526FEF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AF73964-AC9E-4946-820D-8EBFA526FEF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AF73964-AC9E-4946-820D-8EBFA526FEF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9F7DFE0-7E59-4FB6-8C23-04DD6EAD90CA}
+	EndGlobalSection
+EndGlobal
