@@ -1,19 +1,34 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
-namespace To__Patterns
+namespace Handy_Extensions
 {
     class Program
     {
         static void Main(string[] args)
         {
-            /*
-            var v1 = new Decimal(99999999999) * 99999999999;
-            var v2 = (long) Convert.ChangeType(v1, typeof(long));
-            */
+            var a = new Class3();
         }
     }
+
+    public class Class1
+    {
+        public int a, b;
+    }
+
+    public class Class2 : Class1
+    {
+        public string c = "", d = "";
+        //Операторы - не virtual. Для каждого класса надо писать свой оператор.
+        //А еще операторы обязательно static.
+        public static implicit operator int(Class2 value) => value.a + value.b + (int)value.c?.Length + (int)value.d?.Length;
+    }
+
+    public class Class3 : Class2
+    {
+        public double e, f;
+        public Class3()
+        {
+        }
+    }
+
 }
